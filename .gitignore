@@ -1,1 +1,51 @@
-.idea
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+
+# --- Local Runtime Files ---
+*.log
+*.tmp
+*.swp
+
+# --- Dataset & Cache Files ---
+# Hugging Face cache
+~/.cache/huggingface/
+
+# FAISS Indexes (local persistence artifacts)
+storage/
+**/storage/
+
+# Vector store pickles (if you later persist them)
+*.faiss
+*.index
+*.pkl
+
+# --- Environment Variables (secrets) ---
+.env
+*.env
+
+# --- Ollama Models (do NOT commit huge binaries) ---
+.models/
+ollama/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+
+# --- Nothing Python Compiled ---
+build/
+dist/
+*.egg-info/

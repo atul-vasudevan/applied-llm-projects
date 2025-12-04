@@ -1,0 +1,19 @@
+# Core AI frameworks
+langchain>=0.3
+langchain-core>=0.3
+langchain-ollama>=0.1
+langchain-community>=0.2
+langgraph>=0.2
+
+# Vector + Retrieval
+faiss-cpu
+datasets
+
+# Observability
+langsmith>=0.1
+
+# Utilities
+python-dotenv
+
+# Optional: CLI formatting, colors
+rich
