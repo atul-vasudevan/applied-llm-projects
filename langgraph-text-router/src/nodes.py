@@ -2,9 +2,8 @@ from typing import TypedDict, Dict, Any
 from langchain_ollama import ChatOllama
 from langchain_core.messages import SystemMessage, HumanMessage
 
-# Local Ollama server (default http://localhost:11434).
 llm = ChatOllama(
-    model="llama3.1",  # or the model you pulled via `ollama pull`
+    model="llama3.1",
     temperature=0
 )
 
